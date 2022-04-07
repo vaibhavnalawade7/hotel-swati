@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/basic.css">
+    
+    <style>
+        body {
+           
+           /* background: linear-gradient(90deg, rgb(142, 180, 200), rgba(0, 212, 255, 1)); */
+           background: rgba(0, 212, 255, 1);
+
+           height    : 100vh;
+           height    : auto;
+       }
+    </style>
+    <script>
+        function goToIndex() {
+            window.location.href = "index.html";
+        }
+    </script>
+</head>
+<body>
+    <div class="commanDiv">
+        <label for=""><h2>Login To Hotel Swati</h2></label>
+        <input type="text" class="inputs" name="username" placeholder="Enter Your Username" required />
+        <input type="password" class="inputs" name="password" placeholder="Enter Your Password" required />
+        <input type="submit" class="btn" onClick="goToIndex();" value="Login">&nbsp;
+        <a href="singUp.html" class="btn">SignUp</a>
+    </div>
+</body>
+</html>
