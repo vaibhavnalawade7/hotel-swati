@@ -163,3 +163,59 @@
             background-color: rgb(134, 68, 68);
         
         }
+        #main {
+            display: flex;
+            flex-wrap: wrap;
+            text-align: center;
+            
+        }
+
+        #test {
+            width: auto;
+            height: auto;
+            background-color: rgb(191, 89, 191);
+            margin: 20px;
+            padding: 20px;
+            font-size: 20px;
+        }
+
+        @media (max-width: 376px) {
+            body {
+                background-color: crimson;
+                color: blueviolet;
+            }
+        }
+
+        @media (min-width: 376px) {
+            body {
+                background-color: red;
+            }
+        }
+
+        @media (min-width: 600px) {
+            body {
+                background-color: black;
+            }
+        }
+
+        @media (min-width: 768px) {
+            body {
+                background-color: chocolate;
+            }
+        }
+
+        @media (min-width: 992px) {
+            body {
+                background-color: rgb(243, 243, 10);
+            }
+        }
+
+        @media (min-width: 1199px) {
+            body {
+                background-color: burlywood;
+            }
+        }
+        img {
+            width: 100px;
+            height: 100px;
+        }

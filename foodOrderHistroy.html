@@ -16,6 +16,17 @@
            height    : auto;
        }
     </style>
+
+    <script>
+
+        function outOfStock() {
+            alert("Sorry This Food Is Out Of Stock");
+        }
+
+        function ordered() {
+            alert("Food Orderd Successfully")
+        }
+    </script>
 </head>
 <body>
     <header>
@@ -29,5 +40,22 @@
             <li style="float: right;"><a href="profile.html">Profile</a></li>
         </ul>
     </header>
+
+    <div id="main">
+        <div id="test">
+            <img src="images/pizza.jpg" alt="Chinise Nodles"><br>
+            <label for=""><b>Veg Chinise Nodles</b></label><br>
+            <label for=""><b>Price:</b>Rs. 399</label><br>
+            <a href="" onclick="ordered();" class="btn">Order Again</a>
+        </div>
+
+        <div id="test">
+            <img src="images/pizza.jpg" alt="SandWhich"><br>
+            <label for=""><b>Veg SandWhich</b></label><br>
+            <label for=""><b>Price:</b>Rs. 199</label><br>
+            <a href="" onclick="outOfStock();" class="btn">Order Again</a>
+        </div>
+
+    </div>
 </body>
 </html>
